@@ -1,6 +1,10 @@
 # Dashboard Pemantauan Mesin Industri
 
+<<<<<<< HEAD
 Aplikasi web untuk monitoring performa mesin industri secara langsung.
+=======
+Aplikasi web dashboard untuk memantau kondisi mesin di lingkungan industri secara real-time.
+>>>>>>> latihan/konflik
 
 ## Teknologi
 - Next.js
