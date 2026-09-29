@@ -146,4 +146,4 @@ GitHub menerapkan kebijakan HTTPS wajib sehingga setiap permintaan HTTP dikembal
 |---------|----------------|----------------------|-------------------|
 | Claude | Meminta pembuatan template Markdown dan menjelaskan git | Struktur dokumen dan penjelasan konflik Git | Membandingkan output terminal dan DevTools secara langsung dengan penjelasan yang diberikan AI | 
 | Claude & Gemini | Mencari solusi error curl di PowerShell dan penjelasan cara kerja curl -I | Pengamatan Lalu Lintas HTTP | Mencocokkan hasil keluaran terminal curl secara mandiri dengan penjelasan AI |
-| Claude | Meminta penjelasan cara kerja dan perbedaan perintah `curl -I` dan `curl -v` | Kendala dan penyelesaian |  Mencocokkan hasil keluaran terminal curl seperti contoh yang ada di website atau google | 
+| Claude | Meminta penjelasan cara kerja dan perbedaan perintah `curl -I` dan `curl -v` | Kendala dan penyelesaian |  Mencocokkan hasil keluaran terminal curl seperti contoh yang ada di website atau google |  
