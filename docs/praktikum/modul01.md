@@ -134,9 +134,8 @@ GitHub menerapkan kebijakan HTTPS wajib sehingga setiap permintaan HTTP dikembal
 
 | No | Kendala | Penyelesaian |
 |----|---------|--------------|
-| 1 | Perintah `touch` tidak dikenali di Windows PowerShell | Menggunakan perintah `New-Item` sebagai pengganti untuk membuat file baru |
-| 2 | Perintah `curl` di PowerShell mengarah ke `Invoke-WebRequest` bukan curl asli | Menggunakan `curl.exe` agar yang dijalankan adalah program curl yang sebenarnya |
-| 3 | Kesulitan membaca header pada keluaran curl -v karena tertutup kode HTML yang panjang | Menggunakan `curl -I` terlebih dahulu untuk melihat header saja, lalu `curl -v` untuk detail lengkap |
+| 1 | Perintah `curl` di PowerShell mengarah ke `Invoke-WebRequest` bukan curl asli | Menggunakan `curl.exe` agar yang dijalankan adalah program curl yang sebenarnya |
+| 2 | Kesulitan membaca header pada keluaran curl -v karena tertutup kode HTML yang panjang | Menggunakan `curl -I` terlebih dahulu untuk melihat header saja, lalu `curl -v` untuk detail lengkap |
 
 ---
 
